@@ -81,3 +81,65 @@ header #signin{
   font-family: "Montserrat", serif;
 }
 /*It doesn't hurt to keep practicing*/
+.prac {
+  margin-top: 32px;
+  margin-left:24px;
+  margin-bottom: 32px;
+  margin-right: 24px;
+  width:60%;
+  display: inline-block;
+  float:left;
+  clear: left;
+}
+
+.prac img{
+  width:100%
+}
+
+.prac h2{
+  font-weight: 900;
+  margin-bottom: 24px;
+  font-size: 40px;
+}
+.prac p{
+  text-align:left;
+}
+.cards{
+  display: flex;
+  width:36%;
+  height: auto;
+  float:left;
+  margin-top: 16px;
+  flex-direction: column;
+}
+.pracfooter{
+  margin-top:30px;
+  font-size: 10px;
+  margin-bottom: 32px;
+}
+.card{
+  height:auto;
+  padding:16px;
+  width:100%;
+}
+.cardimg{
+  width:35%;
+  height:auto;
+  float:left;
+  margin-right: 16px;
+}
+.cardtitle{
+  font-weight: bold;
+  font-size: 20px;
+}
+.time{
+  font-size: 16px;
+}
+.rm{
+  font-size: 16px;
+  color: blue;
+}
+.sp{
+  background-color: rgba(220,220,220,0.8);
+}
+/*Start Learning*/
