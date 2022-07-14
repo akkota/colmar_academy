@@ -1,21 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /* HTML and Body CSS*/
 html{
-  font-family: "Edu SA Beginner", serif;
+  font-family: "Montserrat", serif;
 }
 body {
   margin:0px;
 }
 /* Header CSS */
 header {
-  margin-top: 10px;
   position: fixed;
   width: 100%;
+  z-index: 1;
+  background: white;
 }
 header img {
   margin-left: 24px;
   position: relative;
   top:6px;
+  width:40px;
 }
 header h1{
   display: inline;
@@ -23,13 +25,15 @@ header h1{
   font-weight: 400;
   vertical-align: baseline;
   font-size: 32px;
+  position: relative;
+  bottom:8px;
 }
 header ul {
   margin: 0px;
   padding: 0px;
   float: right;
   position:relative;
-  top:12px;
+  top:18px;
 }
 header li {
   display: inline;
@@ -39,3 +43,41 @@ header #signin{
   margin-right: 24px;
 }
 /* Banner content */
+.greybkg {
+  padding-top: 90px;
+  padding-left: 24px;
+  padding-bottom: 32px;
+  background-color: grey;
+}
+.img{
+  display:inline-block;
+  width: 60%;
+  margin-right: 24px;
+}
+.img img{
+  width: 100%;
+}
+.text{
+  display: inline-block;
+  width: 33%;
+  float: right;
+  text-align: center;
+  margin-right: 70px;
+  text-align: left;
+}
+.text h2 {
+  font-size: 55px;
+  color:#341211;
+  padding-top:50px;
+}
+.text p {
+  color:#341211;
+  font-size: 35px;
+}
+.text button{
+  padding: 8px 100px;
+  color:white;
+  background-color: #341211;
+  font-family: "Montserrat", serif;
+}
+/*It doesn't hurt to keep practicing*/
