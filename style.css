@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+/* HTML and Body CSS*/
+html{
+  font-family: "Edu SA Beginner", serif;
+}
+body {
+  margin:0px;
+}
+/* Header CSS */
+header {
+  margin-top: 10px;
+  position: fixed;
+  width: 100%;
+}
+header img {
+  margin-left: 24px;
+  position: relative;
+  top:6px;
+}
+header h1{
+  display: inline;
+  margin: 0px;
+  font-weight: 400;
+  vertical-align: baseline;
+  font-size: 32px;
+}
+header ul {
+  margin: 0px;
+  padding: 0px;
+  float: right;
+  position:relative;
+  top:12px;
+}
+header li {
+  display: inline;
+  margin-right: 16px;
+}
+header #signin{
+  margin-right: 24px;
+}
+/* Banner content */
