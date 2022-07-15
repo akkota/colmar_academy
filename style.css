@@ -210,7 +210,7 @@ header #signin{
 .card2desc{
   margin:0px;
   display: inline-block;
-  margin-top:10px; 
+  margin-top:10px;
 }
 .gbkg{
   background-color: rgba(220, 220, 220, 0.7);
@@ -221,3 +221,16 @@ header #signin{
   flex-direction: column;
   width:60%
 }
+/* Footer content*/
+footer{
+  margin-top: 16px;
+  margin-left: 24px;
+  font-size: 12px;
+  padding-bottom: 32px;
+}
+footer span{
+  float:right;
+}
+/*
+Mobile
+*/
