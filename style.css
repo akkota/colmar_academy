@@ -161,3 +161,63 @@ header #signin{
 .coursecontent{
   padding-bottom: 8px;
 }
+.cardstartl h4,p{
+  margin-left: 16px;
+  margin-right: 16px;
+}
+/* Thesis */
+#thesist{
+  margin-top: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.reimagineurban{
+  width:60%;
+  margin-left:24px;
+  text-align: left;
+  margin-right:24px;
+  display: inline-block;
+}
+.reimagineurban video{
+  width:100%;
+}
+.reimagineurban p {
+  margin:0;
+  margin-bottom:32px;
+}
+.card2imgt{
+  font-size:24px;
+  display: inline-block;
+  margin:0;
+  margin-top:30px;
+}
+.cards2{
+  display: inline-flex;
+  flex-direction: column;
+  width: 36%;
+  float:right;
+}
+.card2{
+    padding:16px;
+    float: left;
+}
+.card2img{
+  width:35%;
+  height:auto;
+  float:left;
+  margin-right: 16px;
+}
+.card2desc{
+  margin:0px;
+  display: inline-block;
+  margin-top:10px; 
+}
+.gbkg{
+  background-color: rgba(220, 220, 220, 0.7);
+}
+.txt{
+  float: right;
+  display: inline-flex;
+  flex-direction: column;
+  width:60%
+}
