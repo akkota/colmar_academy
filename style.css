@@ -1,236 +1,338 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* HTML and Body CSS*/
-html{
-  font-family: "Montserrat", serif;
-}
-body {
-  margin:0px;
-}
-/* Header CSS */
-header {
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  background: white;
-}
-header img {
-  margin-left: 24px;
-  position: relative;
-  top:6px;
-  width:40px;
-}
-header h1{
-  display: inline;
-  margin: 0px;
-  font-weight: 400;
-  vertical-align: baseline;
-  font-size: 32px;
-  position: relative;
-  bottom:8px;
-}
-header ul {
-  margin: 0px;
-  padding: 0px;
-  float: right;
-  position:relative;
-  top:18px;
-}
-header li {
-  display: inline;
-  margin-right: 16px;
-}
-header #signin{
-  margin-right: 24px;
-}
-/* Banner content */
-.greybkg {
-  padding-top: 90px;
-  padding-left: 24px;
-  padding-bottom: 32px;
-  background-color: grey;
-}
-.img{
-  display:inline-block;
-  width: 60%;
-  margin-right: 24px;
-}
-.img img{
-  width: 100%;
-}
-.text{
-  display: inline-block;
-  width: 33%;
-  float: right;
-  text-align: center;
-  margin-right: 70px;
-  text-align: left;
-}
-.text h2 {
-  font-size: 55px;
-  color:#341211;
-  padding-top:50px;
-}
-.text p {
-  color:#341211;
-  font-size: 35px;
-}
-.text button{
-  padding: 8px 100px;
-  color:white;
-  background-color: #341211;
-  font-family: "Montserrat", serif;
-}
-/*It doesn't hurt to keep practicing*/
-.section1{
-  margin-top: 32px;
-  margin-left: 24px;
-  margin-bottom: 32px;
-}
-.prac{
-  display:inline-block;
-  width: 60%;
-  margin-right: 24px;
-}
-.prac img{
-  width:100%;
-}
-.prac h3{
-  font-weight: 700;
-  font-size:35px;
-  color: #341211;
-}
-.pracfooter{
-  margin-top: 50px;
-  font-size: 12px;
-}
-.cards{
-  display: flex;
-  width:38%;
-  flex-direction: column;
-  float:right;
-  position: relative;
-  bottom:15px;
-}
-.card{
-  padding:16px;
-}
-.cardtitle{
-  font-size: 20px;
-  position: relative;
-  top: 8px;
-}
-.imgcard{
-  width:35%;
-  height:auto;
-  float: left;
-  margin-right: 16px;
-}
-.rm{
-  color:blue;
-}
-.gl{
-  background-color: rgba(220, 220, 220, 0.8);
-}
-/*  Start learning */
-.startl{
-  background-color: rgba(220, 220, 220, 0.6);
-}
-.flexstartl{
-  display: flex;
-  flex-wrap:wrap;
-  justify-content: space-between;
-  align-content: space-between;
-  margin-left: 72px;
-  margin-right: 72px;
-}
-.startltitle{
-  padding-top: 32px;
-  text-align: center;
-  padding-bottom:32px;
-  margin-bottom: 0px;
-}
-.imgcardstartl{
-  height:auto;
-  width:100%;
-}
-.cardstartl{
-    background-color: white;
-    width:30%;
+@media only screen and (min-width: 501px){
+  .mob {
+    display: none;
+  }
+  html{
+    font-family: "Montserrat", serif;
+  }
+  body {
+    margin:0px;
+  }
+  /* Header CSS */
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background: white;
+  }
+  header img {
+    margin-left: 24px;
+    position: relative;
+    top:6px;
+    width:40px;
+  }
+  header h1{
+    display: inline;
+    margin: 0px;
+    font-weight: 400;
+    vertical-align: baseline;
+    font-size: 32px;
+    position: relative;
+    bottom:8px;
+  }
+  header ul {
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    position:relative;
+    top:18px;
+  }
+  header li {
+    display: inline;
+    margin-right: 16px;
+  }
+  header #signin{
+    margin-right: 24px;
+  }
+  /* Banner content */
+  .greybkg {
+    padding-top: 90px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+    background-color: grey;
+  }
+  .img{
+    display:inline-block;
+    width: 60%;
+    margin-right: 24px;
+  }
+  .img img{
+    width: 100%;
+  }
+  .text{
+    display: inline-block;
+    width: 33%;
+    float: right;
+    text-align: center;
+    margin-right: 70px;
+    text-align: left;
+  }
+  .text h2 {
+    font-size: 55px;
+    color:#341211;
+    padding-top:50px;
+  }
+  .text p {
+    color:#341211;
+    font-size: 35px;
+  }
+  .text button{
+    padding: 8px 100px;
+    color:white;
+    background-color: #341211;
+    font-family: "Montserrat", serif;
+  }
+  /*It doesn't hurt to keep practicing*/
+  .section1{
+    margin-top: 32px;
+    margin-left: 24px;
     margin-bottom: 32px;
-}
-.coursecontent{
-  padding-bottom: 8px;
-}
-.cardstartl h4,p{
-  margin-left: 16px;
-  margin-right: 16px;
-}
-/* Thesis */
-#thesist{
-  margin-top: 32px;
-  margin-bottom: 32px;
-  text-align: center;
-}
-.reimagineurban{
-  width:60%;
-  margin-left:24px;
-  text-align: left;
-  margin-right:24px;
-  display: inline-block;
-}
-.reimagineurban video{
-  width:100%;
-}
-.reimagineurban p {
-  margin:0;
-  margin-bottom:32px;
-}
-.card2imgt{
-  font-size:24px;
-  display: inline-block;
-  margin:0;
-  margin-top:30px;
-}
-.cards2{
-  display: inline-flex;
-  flex-direction: column;
-  width: 36%;
-  float:right;
-}
-.card2{
+  }
+  .prac{
+    display:inline-block;
+    width: 60%;
+    margin-right: 24px;
+  }
+  .prac img{
+    width:100%;
+  }
+  .prac h3{
+    font-weight: 700;
+    font-size:35px;
+    color: #341211;
+  }
+  .pracfooter{
+    margin-top: 50px;
+    font-size: 12px;
+  }
+  .cards{
+    display: flex;
+    width:38%;
+    flex-direction: column;
+    float:right;
+    position: relative;
+    bottom:15px;
+  }
+  .card{
     padding:16px;
+  }
+  .cardtitle{
+    font-size: 20px;
+    position: relative;
+    top: 8px;
+  }
+  .imgcard{
+    width:35%;
+    height:auto;
     float: left;
-}
-.card2img{
-  width:35%;
-  height:auto;
-  float:left;
-  margin-right: 16px;
-}
-.card2desc{
-  margin:0px;
-  display: inline-block;
-  margin-top:10px;
-}
-.gbkg{
-  background-color: rgba(220, 220, 220, 0.7);
-}
-.txt{
-  float: right;
-  display: inline-flex;
-  flex-direction: column;
-  width:60%
-}
-/* Footer content*/
-footer{
-  margin-top: 16px;
-  margin-left: 24px;
-  font-size: 12px;
-  padding-bottom: 32px;
-}
-footer span{
-  float:right;
+    margin-right: 16px;
+  }
+  .rm{
+    color:blue;
+  }
+  .gl{
+    background-color: rgba(220, 220, 220, 0.8);
+  }
+  /*  Start learning */
+  .startl{
+    background-color: rgba(220, 220, 220, 0.6);
+  }
+  .flexstartl{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-left: 72px;
+    margin-right: 72px;
+  }
+  .startltitle{
+    padding-top: 32px;
+    text-align: center;
+    padding-bottom:32px;
+    margin-bottom: 0px;
+  }
+  .imgcardstartl{
+    height:auto;
+    width:100%;
+  }
+  .cardstartl{
+      background-color: white;
+      width:30%;
+      margin-bottom: 32px;
+  }
+  .coursecontent{
+    padding-bottom: 8px;
+  }
+  .cardstartl h4,p{
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  /* Thesis */
+  #thesist{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .reimagineurban{
+    width:60%;
+    margin-left:24px;
+    text-align: left;
+    margin-right:24px;
+    display: inline-block;
+  }
+  .reimagineurban video{
+    width:100%;
+  }
+  .reimagineurban p {
+    margin:0;
+    margin-bottom:32px;
+  }
+  .card2imgt{
+    font-size:24px;
+    display: inline-block;
+    margin:0;
+    margin-top:30px;
+  }
+  .cards2{
+    display: inline-flex;
+    flex-direction: column;
+    width: 36%;
+    float:right;
+  }
+  .card2{
+      padding:16px;
+      float: left;
+  }
+  .card2img{
+    width:35%;
+    height:auto;
+    float:left;
+    margin-right: 16px;
+  }
+  .card2desc{
+    margin:0px;
+    display: inline-block;
+    margin-top:10px;
+  }
+  .gbkg{
+    background-color: rgba(220, 220, 220, 0.7);
+  }
+  .txt{
+    float: right;
+    display: inline-flex;
+    flex-direction: column;
+    width:60%
+  }
+  /* Footer content*/
+  footer{
+    margin-top: 16px;
+    margin-left: 24px;
+    font-size: 12px;
+    padding-bottom: 32px;
+  }
+  footer span{
+    float:right;
+  }
 }
 /*
 Mobile
 */
+@media only screen and (max-width: 500px){
+  .pc {
+    display: none;
+  }
+  body{
+    margin:0px;
+    font-family: "Montserrat"
+  }
+  header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 64px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+  }
+  header img {
+    height: 48px;
+    width: auto;
+    margin-top: 12px;
+  }
+  .banner img{
+    display: inline-block;
+    width: 100%;
+    margin-top: 64px;
+  }
+  .lrnsmth{
+    background-color: grey;
+    margin-bottom: 16px;
+  }
+  .txtlrnsmth {
+    margin-top: 32px;
+    display: inline-block;
+    margin: 32px 16px;
+  }
+  .txtlrnsmth h1{
+    font-size: 40px;
+  }
+  .txtlrnsmth h3{
+    font-size: 26px;
+  }
+  .txtlrnsmth h4{
+    padding:16px 128px;
+    color: white;
+    text-align: center;
+    background-color: rgb(220,220,220,0.5);
+  }
+  .cardsmob{
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+  .cardmob img{
+    width: 100%;
+  }
+  .startltitle{
+    text-align:center;
+  }
+  .startl{
+    margin-top: 32px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .startlcard{
+    padding-top: 16px;
+    padding-bottom: 24px;
+    text-align: left;
+    margin-bottom: 8px;
+    background-color: rgb(220,220,220,0.5);
+  }
+  .startlcard h4{
+    margin-left:16px;
+    font-weight: normal;
+    font-size: 24px;
+  }
+  .lcard{
+    margin-bottom: 32px;
+  }
+  .thesisexhibits h2{
+    text-align:center;
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }
+  .thesisexhibits video{
+    margin-bottom: 24px;
+    width: 100%;
+  }
+  footer{
+    margin: 16px 0px;
+    font-size: 12px;
+    margin-left: 16px;
+  }
+}
